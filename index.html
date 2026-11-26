@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfólio pessoal de Miguel Ângelo, estudante de Informática.">
+    <title>Início | Miguel Ângelo</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="flex min-h-screen flex-col bg-[#c9e0eb] font-sans text-[#262423] antialiased">
+
+    <header class="border-b border-white/10 bg-[#262423] text-[#c9e0eb] shadow-lg shadow-[#262423]/10">
+        <div class="mx-auto flex w-full max-w-6xl flex-col items-center justify-between gap-5 px-6 py-5 md:flex-row">
+            <a href="index.html" class="group flex items-center gap-3" aria-label="Página inicial de Miguel Ângelo">
+                <span>
+                    <span class="block text-xl font-bold tracking-wide">Miguel Ângelo</span>
+                    <span class="block text-[10px] font-semibold uppercase tracking-[0.24em] text-[#7392b5]">Portfólio · Informática</span>
+                </span>
+            </a>
+
+            <nav class="flex flex-wrap items-center justify-center gap-2 text-sm font-semibold" aria-label="Navegação principal">
+                <a href="index.html" aria-current="page" class="rounded-full bg-[#8350c4] px-4 py-2.5 text-white shadow-md shadow-[#8350c4]/20 transition hover:-translate-y-0.5 hover:bg-[#7392b5]">Início</a>
+                <a href="sobre.html" class="rounded-full px-4 py-2.5 text-[#c9e0eb] transition hover:bg-white/10 hover:text-white">Sobre Mim</a>
+                <a href="contato.html" class="rounded-full px-4 py-2.5 text-[#c9e0eb] transition hover:bg-white/10 hover:text-white">Contato</a>
+                <a href="tecnologias.html" class="rounded-full px-4 py-2.5 text-[#c9e0eb] transition hover:bg-white/10 hover:text-white">Tecnologias</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="mx-auto flex w-full max-w-6xl flex-1 items-center px-6 py-12 md:py-20">
+        <section class="relative grid w-full items-center gap-10 overflow-hidden rounded-[2rem] border border-white/70 bg-white/65 p-7 shadow-2xl shadow-[#402b47]/10 backdrop-blur-sm md:grid-cols-[0.85fr_1.15fr] md:gap-14 md:p-12">
+            <div class="pointer-events-none absolute -right-24 -top-28 h-72 w-72 rounded-full bg-[#8350c4]/15 blur-3xl"></div>
+            <div class="pointer-events-none absolute -bottom-32 -left-20 h-72 w-72 rounded-full bg-[#7392b5]/25 blur-3xl"></div>
+
+            <div class="relative mx-auto w-full max-w-[290px]">
+                <div class="absolute -inset-3 rounded-[2.5rem] bg-gradient-to-br from-[#8350c4] to-[#7392b5] opacity-80 blur-sm"></div>
+                <div class="relative overflow-hidden rounded-[2.2rem] border-[6px] border-white bg-[#7392b5] shadow-md shadow-[#262423]/20">
+                    <img src="img/WhatsApp Image 2026-10-01 at 18.24.58.jpeg" alt="Foto de perfil de Miguel Ângelo" class="h-[330px] w-full object-cover object-center">
+                </div>
+            </div>
+
+            <div class="relative text-center md:text-left">
+                <p class="mb-4 inline-flex items-center gap-2 rounded-full border border-[#8350c4]/20 bg-[#8350c4]/10 px-4 py-2 text-xs font-bold uppercase tracking-[0.2em] text-[#402b47]">
+                    <span class="h-2 w-2 rounded-full bg-[#8350c4]"></span>
+                    Portfólio pessoal
+                </p>
+                <h1 class="font-serif text-4xl font-bold leading-tight text-[#262423] sm:text-5xl md:text-6xl">Oii! Sou <span class="text-[#8350c4]">Miguel Ângelo.</span></h1>
+                <div class="mx-auto my-6 h-1 w-20 rounded-full bg-gradient-to-r from-[#7392b5] to-[#8350c4] md:mx-0"></div>
+                <p class="mx-auto max-w-xl text-base leading-8 text-[#402b47]/90 sm:text-lg md:mx-0">
+                    Sou estudante do 1º ano do ensino médio, técnico em Informática na EEEP Jeová Costa Lima. Este portfólio vai apresentar um pouco da minha trajetória pessoal e das minhas experiências como técnico de Informática.
+                </p>
+
+                <div class="mt-8 flex flex-wrap justify-center gap-3 md:justify-start">
+                    <a href="sobre.html" class="inline-flex items-center justify-center rounded-full bg-[#402b47] px-6 py-3 text-sm font-bold text-[#c9e0eb] shadow-lg shadow-[#402b47]/15 transition hover:-translate-y-1 hover:bg-[#8350c4]">Sobre mim</a>
+                    <a href="tecnologias.html" class="inline-flex items-center justify-center rounded-full border border-[#7392b5] bg-white/60 px-6 py-3 text-sm font-bold text-[#402b47] transition hover:-translate-y-1 hover:border-[#8350c4] hover:bg-[#8350c4]/10">Ferramentas</a>
+                    <a href="contato.html" class="inline-flex items-center justify-center rounded-full border border-[#7392b5] bg-white/60 px-6 py-3 text-sm font-bold text-[#402b47] transition hover:-translate-y-1 hover:border-[#8350c4] hover:bg-[#8350c4]/10">Contato</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="border-t border-[#402b47]/10 bg-[#262423] px-6 py-6 text-center text-sm text-[#c9e0eb]/80">
+        <p>© Miguel Ângelo · Infor 1</p>
+        <p class="mt-1 text-xs text-[#7392b5]">Portfólio desenvolvido com HTML e Tailwind CSS</p>
+    </footer>
+
+</body>
+</html>
