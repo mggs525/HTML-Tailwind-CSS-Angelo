@@ -1,2 +1,2 @@
-Trabalho-HTML-CSS
-Esse é o meu trabalho de HTML/CSS, espero que goste :D
+Trabalho-HTML-Tailwind-CSS
+Esse é o meu trabalho de HTML/Tailwind CSS, espero que goste :D
